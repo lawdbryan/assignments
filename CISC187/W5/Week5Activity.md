@@ -1,4 +1,4 @@
-## This covers question 1
+## Question 1
 
 ```c++
 #include <iostream>
@@ -28,7 +28,7 @@ int main(){
 }
 ```
 
-## This covers quetion 2
+## Queston 2
 
 ```c++
 #include <iostream>
@@ -50,5 +50,11 @@ int main(){
 }
 ```
 
+## Question 3
+
+The figure showed there were multiple insert operations where keys are placed in the hash table. For instance, inserting k = 555322 with h(k_ = 22 leads to a collision, and linear probing was used to find the next available slot. If a tombstone is encountered suring the process, the new key can be placed in the tombstone's position, but this can ead to further complications during the search operations. When searching for a key such as k = 555322, the search starts at the hash index and probes linearly. If a tombstone is encountered, the search must continue, possibly leading to more probes than necessary. 
+
 Video: https://youtu.be/N_OqZSthOI8 
+
+
 
