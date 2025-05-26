@@ -52,7 +52,7 @@ for(const Player&p : common_players){
 }
 
 }
-```cpp
+```
 
 Task 2:
 ```cpp
@@ -73,7 +73,7 @@ int findMissingNumber (const vector<int>& nums){
     return expected_sum - actual_sum;
 }
 
-```cpp
+```
 
 Task 3:
 ```cpp
@@ -115,7 +115,7 @@ int main(){
     cout <<"The most profit you can make is: $"<<bestProfit<<endl;
 }
 
-```cpp
+```
 
 Task 4:
 ```cpp
@@ -170,7 +170,7 @@ int main(){
 
     cout<<"The highest product from the list of numbers is: "<<result<<endl;
 }
-```cpp
+```
 
 Task 5:
 ```cpp
@@ -223,7 +223,7 @@ int main(){
     }
     return 0;
 }
-```cpp
+```
 
 Task 6:
 ```cpp
@@ -267,7 +267,7 @@ int main() {
     cout << "Longest consecutive streak length: " << result << endl;
     return 0;
 }
-```cpp
+```
 
 
 
